@@ -13,7 +13,7 @@
  * implied.  See the License for the specific language governing
  * permissions and limitations under the License.
  */
-package com.mastertheboss;
+/* package com.mastertheboss;
 
 import io.fabric8.kubernetes.client.KubernetesClient;
 import org.jboss.arquillian.junit.Arquillian;
@@ -34,3 +34,4 @@ public class KubernetesIntegrationKT {
         assertThat(client).deployments().pods().isPodReadyForPeriod();
     }
 }
+*/
