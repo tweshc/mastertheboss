@@ -28,13 +28,13 @@
   <dependencyManagement>
     <dependencies>
       <!-- import fabric8 platform bom first -->
-      <dependency>
+<!--       <dependency>
         <groupId>io.fabric8</groupId>
         <artifactId>fabric8-project-bom-with-platform-deps</artifactId>
         <version>${fabric8.version}</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>
+      </dependency> -->
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
@@ -63,7 +63,7 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
+<!--     <dependency>
       <groupId>org.jboss.arquillian.junit</groupId>
       <artifactId>arquillian-junit-container</artifactId>
       <scope>test</scope>
@@ -72,13 +72,13 @@
       <groupId>io.fabric8</groupId>
       <artifactId>fabric8-arquillian</artifactId>
       <scope>test</scope>
-    </dependency>
+    </dependency> -->
   </dependencies>
 
   <build>
     <plugins>
       <!-- Compiler plugin enforces Java 1.7 compatibility and activates annotation processors -->
-      <plugin>
+      <!-- <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${maven-compiler-plugin.version}</version>
         <configuration>
@@ -97,7 +97,7 @@
             <exclude>**/*KT.java</exclude>
           </excludes>
         </configuration>
-      </plugin>
+      </plugin> -->
 
       <plugin>
         <groupId>org.springframework.boot</groupId>
